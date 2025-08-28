@@ -7,7 +7,7 @@
 
 Este repositorio contiene la implementación de los contratos inteligentes (backend) para un sistema simple de DeFi Yield Farming construido sobre Ethereum. El proyecto se enfoca exclusivamente en la lógica on-chain y su verificación a través de pruebas automatizadas.
 
-**Nota: Este proyecto no incluye una interfaz de usuario (frontend).**
+**Nota: Este proyecto no incluye una interfaz de usuario funcional (frontend).**
 
 El sistema consta de tres contratos principales:
 * `LPToken.sol`: Un token ERC20 que simula los tokens de un pool de liquidez, utilizados para el staking.
@@ -16,31 +16,33 @@ El sistema consta de tres contratos principales:
 
 ## Requisitos 
 
-BAntes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
+Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 
 * [Node (>= v20.0.0)](https://nodejs.org/en/download/)
 * Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) o [v2+](https://yarnpkg.com/getting-started/install))
 * [Git](https://git-scm.com/downloads)
-## Quickstart
 
-To get started with Scaffold-ETH 2, follow the steps below:
+## Guía de Inicio y Pruebas
 
-1.  Iniciar la Red Local:
+Sigue los siguientes pasos para poner en marcha, probar e interactuar con el proyecto:
+
+1.  Descargar el proyecto e instalación de `yarn`:
 
 ```
+git clone https://github.com/franquium/simple-defi-yield-farming.git
 cd simple-defi-yield-farming
 yarn install
 ```
 
-2. Run a local network in the first terminal:
+2. Correr la red local en la primera terminal:
 
 ```
 yarn chain
 ```
 
-Abre una primera terminal y ejecuta el siguiente comando para iniciar una red local de Ethereum usando Hardhat. Esta terminal debe permanecer abierta durante todo el proceso.
+Este comando inicia una red local de Ethereum usando Hardhat. Esta terminal debe permanecer abierta durante todo el proceso.
 
-3. On a second terminal,  desplegar los Contratos:
+3. En la segunda terminal, desplegar los Contratos:
 
 ```
 yarn deploy
@@ -59,9 +61,16 @@ Este comando ejecutará el archivo `TestTokenFarm.ts` ubicado en `packages/hardh
 
 
 
-## Documentation
+## Documentación
 
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
+Visitar [docs](https://docs.scaffoldeth.io) para tener la documentación completa sobre Scaffold-ETH 2.
 
-To know more about its features, check out our [website](https://scaffoldeth.io).
+## License
+This project is licensed under the MIT License.
+
+## Author
+Made with by @franquium
+
+PS: **Nota: Este proyecto no incluye una interfaz de usuario funcional (frontend).**
+
 
