@@ -59,17 +59,16 @@ yarn test
 Este comando ejecutará el archivo `TestTokenFarm.ts` ubicado en `packages/hardhat/test/` y debería mostrar que todas las pruebas pasan con éxito.
 
 
-
-
 ## Documentación
 
 Visitar [docs](https://docs.scaffoldeth.io) para tener la documentación completa sobre Scaffold-ETH 2.
 
-## License
-This project is licensed under the MIT License.
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Author
-Made with by @franquium
+Creado por @franquium 
+> *"Wir muessen wissen, wir werden wissen!."* - David Hilbert
 
 PS: **Nota: Este proyecto no incluye una interfaz de usuario funcional (frontend).**
 
